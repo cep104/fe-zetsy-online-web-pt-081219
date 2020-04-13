@@ -17,4 +17,17 @@ body {
 	padding: 0 45px 20px;
 }
 
+h1{
+	color:rgb(156, 172, 167);
+	font-size: 100%;
+}
+#main {
+	border: 5px solid rgb(156, 172, 167);
+	
+}
+header {
+	border-bottom: 1px solid rgb(156, 172, 167);
+	margin-bottom: 5px;
+}
+
 /* Write all remaining styles here */
