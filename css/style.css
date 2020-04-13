@@ -17,9 +17,19 @@ body {
 	padding: 0 45px 20px;
 }
 
-h1{
+header h1{
 	color:rgb(156, 172, 167);
-	font-size: 100%;
+	font-size: 5em;
+	margin: 0 0 5px;
+	padding-bottom: 10px;
+	ont-weight: normal;
+	font-family: 'Baskerville', serif;
+	display:inline-block;
+	
+}
+
+h1:hover {
+color:	rgb(93, 99, 97);
 }
 #main {
 	border: 5px solid rgb(156, 172, 167);
@@ -28,6 +38,22 @@ h1{
 header {
 	border-bottom: 1px solid rgb(156, 172, 167);
 	margin-bottom: 5px;
+}
+section img{
+	border: 5px solid rgb(156, 172, 167, .5);
+}
+section img:hover {
+	border: 5px solid rgb(156, 172, 167);
+}
+
+footer {
+	text-align: right;
+	font-size: small;
+}
+
+h2 {
+	color:rgb(91, 99, 96);
+	font-size: 2em;
 }
 
 /* Write all remaining styles here */
